@@ -18,7 +18,7 @@ class IndexController extends Controller
         //$data = DB::table('picture')->where('pid', $id)->get();
         $data = DB::table('picture')->get();
         return view('index.index', [
-            'name' => '马语彤',
+            'name' => '美好的时光',
             'data' => $data
         ]);
     }
